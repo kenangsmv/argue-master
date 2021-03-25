@@ -1,0 +1,10 @@
+.flowContainer{
+    width: 60%;
+    padding:10px;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}

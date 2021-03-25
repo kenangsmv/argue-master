@@ -1,0 +1,15 @@
+.homeContainer{
+width: 100%;
+background-color: #F0F2F5;
+
+display: flex;
+justify-content: center;
+-webkit-box-flex: 1;
+flex-grow: 1;
+
+}
+
+
+
+
+
