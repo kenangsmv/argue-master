@@ -1,6 +1,6 @@
 import React from 'react'
 import Sent from '../../../icons/sent.png'
-
+import ProfilePhoto from '../../../images/profilephoto.jpg'
 export default function messagenew() {
     return (
         <div className="mainMiddle">
@@ -12,7 +12,15 @@ export default function messagenew() {
                 </div>
          </div>
          <div className="mainMiddleMessage">
-        
+              <div className="newMessage row">
+                  
+                  <img  src={ProfilePhoto} alt=""/>
+                  
+                     <div className="newMessageBox">
+                            <h3>Kenan Gasimov</h3>
+                            <span>bu tartisma cok komik bence</span>
+                     </div>
+              </div>
          </div>
          <div className="middleBottom row  center">
               
